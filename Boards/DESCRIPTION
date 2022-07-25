@@ -1,0 +1,6 @@
+<b>Washing Machine Statu Indicator</b><p>
+
+Board for showing washing machine and clothes dryer status.<br>
+Uses ESP32-Dev board or the Inland clone sold at Microcenter.<p>
+
+Could be modified to use other ESP32 based developer boards, but code would need to be modified to use different pinouts.

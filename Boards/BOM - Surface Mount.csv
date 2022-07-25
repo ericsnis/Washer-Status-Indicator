@@ -1,0 +1,8 @@
+﻿Qty,Item,Manufacturer,Source,Part #,Website
+1,2.1mm DC barrel jack,CUI,Adafruit,373,https://www.adafruit.com/product/373
+6,100 Ohm Resistor 1206,Stackpole,DigiKey,RNCP1206FTD100R,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD100R/2240316
+3,Green LED 1206,Inolux,DigiKey,IN-S126ATG,https://www.digikey.com/en/products/detail/inolux/IN-S126ATG/7604905
+3,Red LED 1206,Inolux,DigiKey,IN-S126ATR,https://www.digikey.com/en/products/detail/inolux/IN-S126ATR/7604906
+0,Amber LED 1206,Inolux,DigiKey,IN-S126ATA,https://www.digikey.com/en/products/detail/inolux/IN-S126ATA/7604903
+1,Slide Switch SPDT Through Hole,E-Switch,DigiKey,EG1213,https://www.digikey.com/en/products/detail/e-switch/EG1213/101735
+1,Inland ESP32-WROOM-32D Module,Inland,Microcenter,KS0413,https://www.microcenter.com/product/613822/inland-esp32-wroom-32d-module

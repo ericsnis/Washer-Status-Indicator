@@ -1,0 +1,18 @@
+UID: mqtt:broker:MY-MQTT
+label: MQTT Broker
+thingTypeUID: mqtt:broker
+configuration:
+  lwtQos: 0
+  publickeypin: false
+  clientid: 95ecd6b7-df12-4588-89ae-94882585ac0f
+  keepAlive: 60
+  retain: false
+  secure: false
+  certificatepin: false
+  qos: 0
+  reconnectTime: 60000
+  port: 1883
+  host: 192.168.1.11
+  lwtRetain: true
+  enableDiscovery: true
+location: Basement Wiring Cabinet

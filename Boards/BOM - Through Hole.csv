@@ -1,0 +1,8 @@
+﻿Qty,Item,Manufacturer,Source,Part #,Website
+1,2.1mm DC barrel jack,CUI,Adafruit,373,https://www.adafruit.com/product/373
+6,100 Ohm Resistor 1/4 Watt Axial,Stackpole,DigiKey,CF14JT100R,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT100R/1741261
+3,Green LED 3mm,SunLED,DigiKey,XLVG65D,https://www.digikey.com/en/products/detail/sunled/XLVG65D/13559320
+3,Red LED 3mm,SunLED,DigiKey,XLMDK65D,https://www.digikey.com/en/products/detail/sunled/XLMDK65D/13559277
+0,Yellow LED 3mm,SunLED,DigiKey,XLMYK65D,https://www.digikey.com/en/products/detail/sunled/XLMYK65D/13559343
+1,Slide Switch SPDT Through Hole,E-Switch,DigiKey,EG1213,https://www.digikey.com/en/products/detail/e-switch/EG1213/101735
+1,Inland ESP32-WROOM-32D Module,Inland,Microcenter,KS0413,https://www.microcenter.com/product/613822/inland-esp32-wroom-32d-module

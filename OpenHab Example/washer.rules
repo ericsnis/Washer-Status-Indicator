@@ -1,0 +1,18 @@
+/**
+ * Rule for Washing machine status
+ */
+rule "Washing Machine Status"
+when
+	Item WashingMachine_Power received update
+then
+	var Power = WashingMachine_Power.state  //make variable Power with wattage in use
+	logInfo("rule", "Washing machine power is {}", Power)
+	if (Power < 2.5 | "W") {  //is the power less than 2.5 watts?
+		WashingMachineStatus.sendCommand(OFF)
+		logInfo("rule", "Washing machine status is OFF")
+	}
+	if (Power >= 2.5 | "W") {  //is the lower greater or equal to 2.5 watts?
+		WashingMachineStatus.sendCommand(ON)
+		logInfo("rule", "Washing machine status is ON")
+	}
+end
