@@ -1,0 +1,9 @@
+Qty,Value,Package,Parts,Description,DIGI-KEY_PART_NUMBER,DIGI-KEY_PURCHASE_URL
+1,,DCJACK_2MM_PTH,CN1,Conn Pwr Jack 2X5.5mm Solder,CP-002A-ND,https://www.digikey.com/en/products/detail/cui-devices/PJ-002A/96962
+3,100uF,1206,"C1, C2, C3",100 µF ±20% 6.3V Ceramic Capacitor X6T 1206 (3216 Metric),490-GRM31CD80J107MEA8KCT-ND,https://www.digikey.com/en/products/detail/murata-electronics/GRM31CD80J107MEA8K/13905021
+1,1N4148,SOD-123FL,D1,Diode 75V 200mA Surface Mount SOD-123,3757-1N4148W_R1_00001CT-ND,https://www.digikey.com/en/products/detail/panjit-international-inc/1N4148W-R1-00001/14660400
+1,300,1206,R1,Resistor 300 Ohm 5% 1/4W 1206,311-300ERCT-ND,https://www.digikey.com/en/products/detail/yageo/RC1206JR-07300RL/729275
+1,,EG1213,SW1,Switch Slide SPDT 200mA 30V,EG1906-ND,https://www.digikey.com/en/products/detail/e-switch/EG1213/101735
+3,,LED_WS2812B-B,"LED1, LED2, LED3",NeoPixel (WS2812B) LED,1568-COM-16347CT-ND,https://www.digikey.com/en/products/detail/sparkfun-electronics/COM-16347/11630204
+1,,QT_PY,U$4,Adafruit QT Py ESP32-C3,,
+1,,TSOP-382,U$3,38 kHz 45 m 2.5-5.5 V Through Hole IR Receiver,751-1227-ND,https://www.digikey.com/product-detail/en/vishay-semiconductor-opto-division/TSOP38238/751-1227-ND/1681362?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol

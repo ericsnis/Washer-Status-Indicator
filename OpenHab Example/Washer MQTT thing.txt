@@ -1,0 +1,17 @@
+UID: mqtt:topic:MY-MQTT:36a325a472
+label: Washer
+thingTypeUID: mqtt:topic
+configuration: {}
+bridgeUID: mqtt:broker:MY-MQTT
+location: Basement
+channels:
+  - id: WasherStatus
+    channelTypeUID: mqtt:switch
+    label: On/Off Switch
+    description: null
+    configuration:
+      commandTopic: sensors/washerstatus
+      postCommand: false
+      retained: false
+      formatBeforePublish: "%s"
+      stateTopic: sensors/washerstatus

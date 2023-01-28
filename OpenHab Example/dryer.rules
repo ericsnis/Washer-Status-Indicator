@@ -1,0 +1,18 @@
+/**
+ * Rule for Clothes Dryer status
+ */
+rule "Dryer Status"
+when
+	Item Dryer_Power received update
+then
+	var Power = Dryer_Power.state
+	logInfo("rule", "Dryer power is {}", Power)
+	if (Power < 2.5 | "W") {
+		DryerStatus.sendCommand(OFF)
+		logInfo("rule", "Dryer status is OFF")
+	}
+	if (Power >= 2.5 | "W") {
+		DryerStatus.sendCommand(ON)
+		logInfo("rule", "Dryer status is ON")
+	}
+end
